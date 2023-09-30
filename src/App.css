@@ -1,0 +1,308 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#212121;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page{
+  width:700px;
+  border:7px solid bisque;
+  background-color:#FFF7ED;
+  padding:30px;
+  font-family: cursive;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+.heading{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+.heading a{
+  color:black;
+  text-decoration: none;
+}
+.main-navbar{
+  background-color: bisque;
+  padding:5px;
+  border-radius: 10px;
+  display:flex;
+  gap:20px;
+}
+.logo{
+  font-size: 30px;
+}
+.outlet{
+  padding:30px;
+}
+.host-navbar{
+  display:flex;
+  width:290px;
+  padding:5px;
+  justify-content: center;
+  gap:15px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+.host-navbar a{
+  text-decoration: none;
+  color:black;
+}
+
+
+
+/* vans page */
+.vans-heading{
+  border-bottom:2px solid black;
+  width:240px;
+  font-size: 20px;
+}
+.vans-array{
+  display:flex;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: center;
+  padding:40px;
+}
+.vans-van{
+  box-shadow: 2px 2px 4px black;
+  padding:5px;
+}
+.vans-img img{
+  width:200px;
+  border-radius: 5px;
+}
+.vans-info{
+  display:flex;
+  font-size: 14px;
+  justify-content:space-between;
+}
+.vans-info span{
+  color:grey;
+  font-size: 10px;
+  display:block;
+}
+.vans-box{
+  width:80px;
+  text-align: center;
+  padding:5px;
+  border-radius: 5px;
+  color:white;
+}
+
+
+.footer{
+  width:600px;
+  font-size: 8px;
+  text-align:center;
+  background-color:bisque;
+  padding:10px;
+}
+
+.van-page{
+  display:flex;
+  flex-direction: column;
+  gap:30px;
+
+}
+.van-page-img{
+  text-align: center;
+  box-shadow: 2px 2px 2px black;
+  padding:5px;
+}
+.van-page-img img{
+  width:570px;
+  border-radius: 20px;
+}
+.van-page-box{
+  width:80px;
+  text-align: center;
+  color:white;
+}
+.van-page-box p{
+  padding:5px;
+  border-radius: 5px;
+}
+.van-page button{
+  background-color:#FF8C38;
+  padding:10px;
+  border-radius: 5px;
+  border:none;
+}
+.van-page a{
+  color:black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+  width:120px;
+}
+
+
+.host-van{
+  display:flex;
+  flex-direction: column;
+  gap:40px;
+}
+.host-van a{
+  color:black;
+  text-decoration: none;
+}
+.host-van-array{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.host-van-van{
+  background-color:lightcyan;
+  padding:10px;
+  width:400px;
+  display:flex;
+  align-items: center;
+  gap:50px;
+  box-shadow: 2px 2px 2px black;
+}
+.host-van-img img{
+  width:120px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+.host-van-info{
+  font-size:13px;
+}
+.host-van-heading{
+  border-bottom:2px solid black;
+  width:150px;
+}
+
+
+.about-hero-image{
+  width:100%;
+  border-radius:10px;
+}
+.about-page-container{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.about-page-cta{
+  background-color: #FFCC8D;
+  height:170px;
+  width:600px;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:flex-start;
+  gap:20px;
+  padding:50px;
+}
+.about-page-content{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  background-color: beige;
+}
+.link-button{
+  background-color: #161616;
+  padding:10px;
+  border-radius: 10px;
+}
+.about-page-cta a{
+  color:white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.detail{
+  display:flex;
+  flex-direction: column;
+  gap:30px;
+}
+.detail a{
+  color:black;
+}
+.detail-page{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.detail-block{
+  background-color: white;
+  padding:40px;
+  border-radius: 10px;
+  display:flex;
+  gap:20px;
+}
+.detail-block img{
+  width:200px;
+  box-shadow:2px 2px 2px black;
+}
+.detail-block span{
+  color:grey;
+  font-weight: 200;
+}
+.detail-link{
+  display:flex;
+  gap:20px;
+  background-color:bisque;
+  width:220px;
+  padding:5px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.detail-link a{
+  text-decoration: none;
+  font-weight:500;
+}
+
+
+.van-detail-info{
+  display:flex;
+  flex-direction: column;
+  gap:20px; 
+}
+.van-detail-info span{
+  border-bottom: 2px solid black;
+}
+
+.van-detail-img-img{
+  width:200px;
+  box-shadow:2px 2px 2px black;
+}
+
+.main-container{
+  background-image:url('../public/images/bg2.png');
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  height:80vh;
+  padding:40px;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  flex-direction: column;
+  gap:20px;
+}
+.main-container a{
+  background-color: #FF8C38;
+  text-align: center;
+  padding:5px;
+  color:black;
+  font-weight: 600;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px black;
+  
+}
